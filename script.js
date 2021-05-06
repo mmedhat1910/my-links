@@ -4,32 +4,37 @@ let links = [
 	{
 		title: 'Instagram',
 		img: 'instagram.png',
-		url: '',
+		url: 'https://www.instagram.com/mmedhat1910/',
 	},
 	{
 		title: 'Twitter',
 		img: 'twitter.png',
-		url: '',
+		url: 'https://twitter.com/mmedhat1910',
+	},
+	{
+		title: 'Facebook',
+		img: 'facebook_square.png',
+		url: 'https://www.facebook.com/mohamed.medhat.986',
 	},
 	{
 		title: 'Linkedin',
 		img: 'linkedin.png',
-		url: '',
+		url: 'https://www.linkedin.com/in/mohamed-m-4ba22295/',
 	},
 	{
 		title: 'Github',
 		img: 'github.png',
-		url: '',
+		url: 'https://github.com/mmedhat1910/',
 	},
 	{
 		title: 'Youtube',
 		img: 'youtube.png',
-		url: '',
+		url: 'https://youtube.com/c/MohamedMedhat7',
 	},
 	{
 		title: 'Snapchat',
 		img: 'snapchat.png',
-		url: '',
+		url: 'https://www.snapchat.com/add/mmedhat_helal',
 	},
 ];
 
