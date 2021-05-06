@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 30px;
+  }
+}
+
+body main {
+  margin-bottom: 20px;
+  min-height: 90vh;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body main .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body main .profile .pic {
+  text-align: center;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: white;
+  background-image: url("./assets/img/my-pic.jpg");
+  background-size: 120%;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  margin-bottom: 1.5rem;
+}
+
+body main .profile .name {
+  font-size: 2rem;
+}
+
+body main .profile .title {
+  font-style: italic;
+  color: #777;
+}
+
+body main .links {
+  margin-top: 2rem;
+}
+
+body main .links .link-tile {
+  text-decoration: none;
+  color: #0e0e0e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 70px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 10px #eee;
+          box-shadow: 5px 5px 10px #eee;
+}
+
+body main .links .link-tile .tile-icon {
+  height: 40px;
+}
+
+body main .links .link-tile .tile-title {
+  text-align: center;
+  padding-right: 5px;
+  min-width: 100px;
+}
+
+body main .links .link-tile:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body main .links .link-tile:active {
+  color: #0e0e0e;
+}
+
+body .theme-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+body .theme-icon img {
+  width: 30px;
+}
+
+body footer {
+  margin-bottom: 10px;
+  color: #777;
+}
+/*# sourceMappingURL=styles.css.map */
