@@ -19,7 +19,7 @@ let links = [
 	{
 		title: 'Linkedin',
 		img: 'linkedin.png',
-		url: 'https://www.linkedin.com/in/mohamed-m-4ba22295/',
+		url: 'https://www.linkedin.com/in/mmedhat1910',
 	},
 	{
 		title: 'Github',
