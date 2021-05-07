@@ -16,7 +16,7 @@
 			<div class="profile">
 				<div class="pic"></div>
 				<div class="name">Mohamed Medhat</div>
-				<div class="title">Computer Science Engineer</div>
+				<div class="title">Computer Engineer</div>
 			</div>
 			<div class="links"></div>
 		</main>
